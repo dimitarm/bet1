@@ -1,0 +1,5 @@
+lightg RCDATA "lightG.png"
+lightr RCDATA "lightR.png"
+lights RCDATA "lightS.png"
+graphic_small RCDATA "graphic_small.png"
+graphic_big RCDATA "graphic_big.png"
