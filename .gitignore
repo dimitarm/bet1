@@ -26,3 +26,10 @@
 *.exe
 *.out
 *.app
+
+Debug/*
+Release/*
+clinica 18.05.2015/*
+log to analyze.txt
+etd-6.db
+etd-6.ini
