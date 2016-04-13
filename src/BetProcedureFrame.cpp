@@ -35,6 +35,7 @@ BetProcedureFrame::BetProcedureFrame(wxWindow* parent, const Patient& patient) :
 	}
 	patient_id_ = patient.getPatientNumber();
 	m_txtPatientName->SetLabel(patient.getFullName());
+	m_txtTreatmentNumber->SetLabel(wxString::Format("%i", patient.getTreatmentCount() + 1));
 	m_bmpElectrodes->SetBitmap(currents_graphic_.getImage());
 	m_bmpVoltage->SetBitmap(voltage_graphic_.getImage());
 	my_timer_.SetOwner(this);

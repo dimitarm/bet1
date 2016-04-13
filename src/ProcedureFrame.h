@@ -39,6 +39,8 @@ class BaseProcedureFrame : public wxFrame
 	protected:
 		wxStaticText* m_staticText32;
 		wxStaticText* m_txtPatientName;
+		wxStaticText* m_staticText321;
+		wxStaticText* m_txtTreatmentNumber;
 		wxStaticText* m_staticText20;
 		wxStaticText* m_staticText21;
 		wxStaticText* m_staticText22;

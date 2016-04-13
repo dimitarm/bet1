@@ -35,6 +35,18 @@ BaseProcedureFrame::BaseProcedureFrame( wxWindow* parent, wxWindowID id, const w
 
 	bSizer21->Add( m_txtPatientName, 0, wxALL, 5 );
 
+	m_staticText321 = new wxStaticText( this, wxID_ANY, wxT("        Treatment: "), wxDefaultPosition, wxDefaultSize, 0 );
+	m_staticText321->Wrap( -1 );
+	m_staticText321->SetFont( wxFont( 14, 74, 90, 90, false, wxT("Arial") ) );
+
+	bSizer21->Add( m_staticText321, 0, wxALL, 5 );
+
+	m_txtTreatmentNumber = new wxStaticText( this, wxID_ANY, wxT("__"), wxDefaultPosition, wxDefaultSize, 0 );
+	m_txtTreatmentNumber->Wrap( -1 );
+	m_txtTreatmentNumber->SetFont( wxFont( 14, 70, 90, 90, false, wxT("Arial") ) );
+
+	bSizer21->Add( m_txtTreatmentNumber, 0, wxALL, 5 );
+
 
 	bSizer3->Add( bSizer21, 0, wxEXPAND, 5 );
 
